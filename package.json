@@ -14,20 +14,5 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/farf/static-livereload/issues"
-  },
-  "homepage": "https://github.com/farf/static-livereload/",
-  "dependencies": {
-    "connect-livereload": "^0.4.0",
-    "express": "^4.2.0",
-    "gulp": "^3.6.2",
-    "node.extend": "^1.0.10",
-    "optimist": "^0.6.1",
-    "tiny-lr": "0.0.7",
-    "minimist": "~0.1.0",
-    "portscanner": "~0.2.3"
-  },
-  "preferGlobal": "true",
-  "bin": {
-    "static-livereload": "gulpfile.js"
   }
 }

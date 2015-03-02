@@ -28,9 +28,9 @@ function extendConfig(config) {
         if (myArgs.path.trim() == '.') {
             myArgs.path = '';
         }
-        config.paths.push({'static': process.cwd() + '/' + myArgs.path});
+        config.paths.push({'': process.cwd() + '/' + myArgs.path});
     } else {
-        config.paths.push({'static': process.cwd() + '/'});
+        config.paths.push({'': process.cwd() + '/'});
     }
 
     config.extensions.push(config.extension);
