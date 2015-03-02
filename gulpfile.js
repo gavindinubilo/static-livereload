@@ -29,6 +29,8 @@ function extendConfig(config) {
             myArgs.path = '';
         }
         config.paths.push({'static': process.cwd() + '/' + myArgs.path});
+    } else {
+        config.paths.push({'static': process.cwd() + '/'});
     }
 
     config.extensions.push(config.extension);
